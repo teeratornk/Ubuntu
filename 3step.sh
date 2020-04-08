@@ -1,0 +1,1 @@
+echo "password" | sudo -S snap install wps-office spotify ao
