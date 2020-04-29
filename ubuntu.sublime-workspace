@@ -1,0 +1,865 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paravi",
+				"paraviewVersion"
+			],
+			[
+				"Km",
+				"KM"
+			],
+			[
+				"macro",
+				"macroPermeability"
+			],
+			[
+				"mac",
+				"macroPorosity"
+			],
+			[
+				"km",
+				"Km"
+			],
+			[
+				"phim",
+				"phiM"
+			],
+			[
+				"frac",
+				"fracturePorosity"
+			],
+			[
+				"phi",
+				"phiM"
+			],
+			[
+				"strip",
+				"stripLoad"
+			],
+			[
+				"cool",
+				"collocated"
+			],
+			[
+				"coef",
+				"coefficientsMatrix"
+			],
+			[
+				"pnum",
+				"PNumeric"
+			],
+			[
+				"fv",
+				"pressureFVIndex"
+			],
+			[
+				"NP",
+				"NPM"
+			],
+			[
+				"xcord",
+				"xCoordFile"
+			],
+			[
+				"pres",
+				"pressure3DField"
+			],
+			[
+				"tim",
+				"timeStep"
+			],
+			[
+				"indep",
+				"independentTermsAssembly"
+			],
+			[
+				"size",
+				"size1"
+			],
+			[
+				"ter",
+				"terzaghiDisplacement"
+			],
+			[
+				"num",
+				"num2str"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"expor",
+				"exportedTimeSteps"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"cure",
+				"currentPosition"
+			],
+			[
+				"cur",
+				"currentTime"
+			],
+			[
+				"curren",
+				"currentPosition"
+			],
+			[
+				"numb",
+				"numberOfPositionPoints"
+			],
+			[
+				"fluid",
+				"fluidViscosity"
+			],
+			[
+				"flui",
+				"fluidBulkModulus"
+			],
+			[
+				"pressure",
+				"pressureNodesPerElement"
+			],
+			[
+				"a",
+				"advance"
+			],
+			[
+				"total",
+				"totalElementsInY"
+			],
+			[
+				"tota",
+				"totalNodesInX"
+			],
+			[
+				"elem",
+				"elementsConnectivity"
+			],
+			[
+				"node",
+				"nodeNumber"
+			],
+			[
+				"nod",
+				"nodesPerFace"
+			],
+			[
+				"nodesper",
+				"nodesPerFace"
+			],
+			[
+				"nodes",
+				"nodesPerFace"
+			],
+			[
+				"allo",
+				"allocatable"
+			],
+			[
+				"si",
+				"sizeInY"
+			],
+			[
+				"displ",
+				"displacementElemConnectivity"
+			],
+			[
+				"totalele",
+				"totalElementsInX"
+			],
+			[
+				"al",
+				"allocatable"
+			],
+			[
+				"totalno",
+				"totalNodesInX"
+			],
+			[
+				"curr",
+				"currentElementInX"
+			],
+			[
+				"delt",
+				"deltaY"
+			],
+			[
+				"sin",
+				"sizeInY"
+			],
+			[
+				"deta",
+				"deltaY"
+			],
+			[
+				"curen",
+				"currentNodeInY"
+			],
+			[
+				"cu",
+				"currentNodeInX"
+			],
+			[
+				"len",
+				"len_trim"
+			],
+			[
+				"siz",
+				"sizeInX"
+			],
+			[
+				"old",
+				"oldMatrix"
+			],
+			[
+				"oldo",
+				"oldColSize"
+			],
+			[
+				"nw",
+				"newMatrix"
+			],
+			[
+				"shap",
+				"shapeTest"
+			],
+			[
+				"sizein",
+				"sizeInX"
+			],
+			[
+				"Proj",
+				"PROJECT_NAME\tbuiltin"
+			],
+			[
+				"projec",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"hello",
+				"helloWorld"
+			],
+			[
+				"PROJE",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"for",
+				"FORTRAN_PREPROCESS_FLAG"
+			],
+			[
+				"target",
+				"target_link_libraries\tcommand"
+			],
+			[
+				"include",
+				"include_directories\tcommand"
+			],
+			[
+				"P",
+				"PROJECT_NAME\tbuiltin"
+			],
+			[
+				"proj",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"p",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"PRoJ",
+				"PROJECT_SOURCE_DIR\tbuiltin"
+			],
+			[
+				"in",
+				"independentTermsArray"
+			],
+			[
+				"stripfoo",
+				"stripfooting_p_timestep"
+			],
+			[
+				"is",
+				"is_open"
+			],
+			[
+				"export",
+				"exportStripfootingSolution"
+			],
+			[
+				"Pp",
+				"P_P"
+			],
+			[
+				"addStrip",
+				"addStripfootingBC"
+			],
+			[
+				"addstripfoot",
+				"addStripfootingDirichletBCToContinuity"
+			],
+			[
+				"stripfo",
+				"stripfooting"
+			],
+			[
+				"grid",
+				"gridType"
+			],
+			[
+				"tran",
+				"transposedCoefficientsMatrix"
+			],
+			[
+				"ChaR",
+				"charLength"
+			],
+			[
+				"log",
+				"logP"
+			],
+			[
+				"xData",
+				"xDataT"
+			],
+			[
+				"xda",
+				"xDataT"
+			],
+			[
+				"point",
+				"point1H"
+			],
+			[
+				"mesh",
+				"meshSizeNo"
+			],
+			[
+				"ptim",
+				"pTimeReduced"
+			],
+			[
+				"mand",
+				"mandelPAnalyticalSolution"
+			],
+			[
+				"myd",
+				"myDataProcessing"
+			],
+			[
+				"paren",
+				"parentDirectory"
+			],
+			[
+				"PORO",
+				"poroelasticProperties"
+			],
+			[
+				"y",
+				"yExact"
+			],
+			[
+				"pre",
+				"pressureFVCoordinates"
+			],
+			[
+				"c1",
+				"C1"
+			],
+			[
+				"linear",
+				"linearSystemSolutionPETSc"
+			],
+			[
+				"Vec",
+				"VecDestroy"
+			],
+			[
+				"data",
+				"dataProcessing"
+			],
+			[
+				"eps",
+				"epsErrorNorm"
+			],
+			[
+				"printve",
+				"printvector"
+			],
+			[
+				"coln",
+				"colNo-1"
+			],
+			[
+				"coeffi",
+				"coefficientsAssembly"
+			],
+			[
+				"spar",
+				"sparseCoefficientsRow"
+			],
+			[
+				"midc",
+				"midCols-1"
+			],
+			[
+				"pois",
+				"poisonUndrained"
+			],
+			[
+				"initil",
+				"initialPressure"
+			],
+			[
+				"ue",
+				"uE"
+			],
+			[
+				"mandel",
+				"mandelPAnalyticalSolution"
+			],
+			[
+				"arc",
+				"arc2"
+			],
+			[
+				"midro",
+				"midRows-1"
+			],
+			[
+				"addman",
+				"addMandelDisplacementToStress"
+			],
+			[
+				"mydin",
+				"myIndependentTerms"
+			],
+			[
+				"ind",
+				"independentTermsAssembly"
+			],
+			[
+				"indp",
+				"independentTermsAssembly"
+			],
+			[
+				"rho",
+				"rho_f"
+			],
+			[
+				"vidsp",
+				"vDisplacementFVIndex"
+			],
+			[
+				"sigma",
+				"sigmaTrial"
+			],
+			[
+				"indepen",
+				"independentTermsArray"
+			],
+			[
+				"sigm",
+				"sigmab"
+			],
+			[
+				"vdis",
+				"vDisplacementFVIndex"
+			],
+			[
+				"sig",
+				"sigmab"
+			],
+			[
+				"indpen",
+				"independentTermsAssembly"
+			],
+			[
+				"asesm",
+				"assemblyMandelIndependentTerms"
+			],
+			[
+				"Fv",
+				"FVCounter"
+			],
+			[
+				"vdi",
+				"vDisplacementField"
+			],
+			[
+				"udispl",
+				"uDisplacementField"
+			],
+			[
+				"pressur",
+				"pressureField"
+			],
+			[
+				"presu",
+				"pressureFVIndex"
+			],
+			[
+				"apply",
+				"applyMandelInitialConditions"
+			],
+			[
+				"problem",
+				"problemParameters"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "firststeps.sh",
+			"settings":
+			{
+				"buffer_size": 841,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sh/libs.sh",
+			"settings":
+			{
+				"buffer_size": 767,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Install Package Control"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"clear cache",
+				"LaTeXTools: Clear cache"
+			],
+			[
+				"cache",
+				"LaTeXTools: Build cache of LaTeX packages"
+			],
+			[
+				"Biber",
+				"LaTeXTools: Clear current bibliography cache"
+			],
+			[
+				"biber",
+				"LaTeXTools: Clear current bibliography cache"
+			],
+			[
+				"build",
+				"Build With: LaTeX - Basic Builder - PdfLaTeX"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"biblate",
+				"Set Syntax: BibLaTeX"
+			],
+			[
+				"Delete",
+				"LaTeXTools: Delete temporary files"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/carlos/Downloads/Ubuntu",
+		"/home/carlos/Downloads/Ubuntu/py",
+		"/home/carlos/Downloads/Ubuntu/sh"
+	],
+	"file_history":
+	[
+		"/home/carlos/Downloads/Ubuntu/firststeps.sh",
+		"/home/carlos/Downloads/Ubuntu/sh/essential.sh",
+		"/home/carlos/Downloads/Ubuntu/sh/sublime3.sh",
+		"/home/carlos/Downloads/Ubuntu/sh/popcorntime.sh",
+		"/home/carlos/Downloads/Ubuntu/sh/libs.sh",
+		"/home/carlos/Downloads/Ubuntu/sh/utilities.sh",
+		"/home/carlos/Downloads/Ubuntu/.gitignore",
+		"/home/carlos/Downloads/Ubuntu/py/petsc.py",
+		"/home/carlos/Downloads/Ubuntu/py/paraview.py",
+		"/home/carlos/Downloads/Ubuntu/py/dropbox.py",
+		"/home/carlos/Downloads/Ubuntu/py/mendeley.py",
+		"/home/carlos/Downloads/Ubuntu/apps/command.py",
+		"/home/carlos/Downloads/Ubuntu/apps/essential.py",
+		"/home/carlos/Downloads/Ubuntu/libs/cmd.py",
+		"/home/carlos/Downloads/Ubuntu/packages/essential.py",
+		"/home/carlos/Downloads/Ubuntu/apps/libs.py",
+		"/home/carlos/Dropbox/Carreira/2020-2023 DTU PhD in Applied Mathematics and Computer Science/Codes/MSHtoXDMF/apps/main.py",
+		"/home/carlos/Downloads/Ubuntu/apps/sublime3.py",
+		"/home/carlos/Downloads/Ubuntu/apps/utilities.py",
+		"/home/carlos/Downloads/Ubuntu/apps/petsc.py",
+		"/home/carlos/Downloads/Ubuntu/apps/paraview.py",
+		"/home/carlos/Downloads/Ubuntu/apps/mendeley.py",
+		"/home/carlos/Downloads/Ubuntu/apps/popcorntime.py",
+		"/home/carlos/Downloads/Ubuntu/apps/dropbox.py",
+		"/home/carlos/Dropbox/Carreira/2020-2023 DTU PhD in Applied Mathematics and Computer Science/Codes/Geomec2D/bash/solution.sh",
+		"/home/carlos/Downloads/Ubuntu/py/essential.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"password\"",
+			"password",
+			", ",
+			",",
+			"+",
+			"=",
+			"+",
+			"=",
+			",",
+			"=",
+			"+",
+			",",
+			"=",
+			",",
+			"+",
+			",",
+			"=",
+			"        "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "firststeps.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sh/libs.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ubuntu.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Contents/Introduction.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Carreira/2020 SINMEC-DHRTC Pesquisador Voluntário/Códigos/MSHtoXDMF/mshtoxdmf.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
