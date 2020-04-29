@@ -1,10 +1,16 @@
-import os,subprocess
+import os,subprocess, sys
 
-version="3.13.0"
+petscVersion=[]
+for eachArg in sys.argv:
+	petscVersion.append(eachArg)
+
+version=petscVersion[0]
 install_dir="/home/carlos/"
 petsc_dir=" PETSC_DIR="+install_dir+"petsc-"+version
 petsc_arch=" PETSC_ARCH=arch-linux2-c-opt"
 flags=" --with-cc=gcc --with-cxx=g++ --with-fc=gfortran --download-mpich --download-fblaslapack"
+
+os.chdir("~/Downloads")
 
 subprocess.call(["sh","-c","wget http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-lite-"+version+".tar.gz"])
 

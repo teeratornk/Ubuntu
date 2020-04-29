@@ -1,1 +1,0 @@
-echo "password" | sudo -S apt -y install gimp pinta mpv texlive-full

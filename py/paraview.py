@@ -1,7 +1,13 @@
-import os,subprocess
+import os,subprocess, sys
 
-version="5.8"
-versionName="5.8.0-MPI-Linux-Python3.7-64bit"
+paraviewVersion=[]
+for eachArg in sys.argv:
+	paraviewVersion.append(eachArg)
+
+version=paraviewVersion[0]
+versionName=paraviewVersion[1]
+
+os.chdir("~/Downloads")
 
 subprocess.call(["sh","-c","wget -c 'https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v"+version+"&type=binary&os=Linux&downloadFile=ParaView-"+versionName+".tar.gz'"])
 
