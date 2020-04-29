@@ -4,8 +4,9 @@ paraviewVersion=[]
 for eachArg in sys.argv:
 	paraviewVersion.append(eachArg)
 
-version=paraviewVersion[0]
-versionName=paraviewVersion[1]
+password=paraviewVersion[0]
+version=paraviewVersion[1]
+versionName=paraviewVersion[2]
 
 os.chdir("~/Downloads")
 
@@ -17,7 +18,9 @@ subprocess.call(["sh","-c","tar xzvf ParaView-"+versionName+".tar.gz"])
 
 os.chdir("ParaView-"+versionName)
 
-subprocess.call(["sh","-c","sudo mkdir /opt/paraview/"])
+subprocess.call(["sh","-c",])
+
+subprocess.call(["sh","-c","echo "+password+" | sudo -S mkdir /opt/paraview/"])
 
 subprocess.call(["sh","-c","sudo cp -r * /opt/paraview/"])
 
