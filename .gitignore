@@ -1,0 +1,5 @@
+# Sublime files
+*.sublime-workspace
+
+# Folders
+__pycache__/
