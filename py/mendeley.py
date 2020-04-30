@@ -2,13 +2,14 @@ import os
 import subprocess
 import sys
 
-password = []
+inputArg = []
 for eachArg in sys.argv:
-	password.append(eachArg)
+	inputArg.append(eachArg)
 
-password = password[1]
+password = inputArg[1]
+home = inputArg[2]
 
-os.chdir("~/Downloads")
+os.chdir(home + "/Downloads")
 
 subprocess.call(["sh", "-c", "wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest"])
 subprocess.call(["sh", "-c", "echo " + password + " | sudo dpkg -i mendeleydesktop-latest"])

@@ -1,4 +1,8 @@
-export password="password"
+export password="123456"
+export home="/home/desktop1"
+export petscVersion="3.13.0"
+export paraviewVersion="5.8"
+export paraviewVersionName="5.8.0-MPI-Linux-Python3.7-64bit"
 
 # Essential (at least for me) softwares
 ./sh/essential.sh ${password}
@@ -16,13 +20,13 @@ export password="password"
 ./sh/popcorntime.sh ${password}
 
 # Dropbox
-python3 ./py/dropbox.py ${password}
+python3 ./py/dropbox.py ${password} ${home}
 
 # Find PETSc version on https://www.mcs.anl.gov/petsc/download/index.html
-python3 ./py/petsc.py "3.13.0"
+python3 ./py/petsc.py ${home} ${petscVersion}
 
 # Find Paraview version on https://www.paraview.org/download/ 
-python3 ./py/paraview.py ${password} "5.8" "5.8.0-MPI-Linux-Python3.7-64bit"
+python3 ./py/paraview.py ${password} ${home} ${paraviewVersion} ${paraviewVersionName}
 
 # Mendeley
-python3 ./py/mendeley.py ${password}
+python3 ./py/mendeley.py ${password} ${home}

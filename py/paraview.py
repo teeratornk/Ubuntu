@@ -2,15 +2,16 @@ import os
 import subprocess
 import sys
 
-paraviewVersion = []
+inputArg = []
 for eachArg in sys.argv:
-	paraviewVersion.append(eachArg)
+	inputArg.append(eachArg)
 
-password = paraviewVersion[1]
-version = paraviewVersion[2]
-versionName = paraviewVersion[3]
+password = inputArg[1]
+home = inputArg[2]
+version = inputArg[3]
+versionName = inputArg[4]
 
-os.chdir("~/Downloads")
+os.chdir(home + "/Downloads")
 
 subprocess.call(["sh", "-c", "wget -c 'https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v" + version + "&type=binary&os=Linux&downloadFile=ParaView-" + versionName + ".tar.gz'"])
 subprocess.call(["sh", "-c", "mv 'download.php?submit=Download&version=v" + version + "&type=binary&os=Linux&downloadFile=ParaView-" + versionName + ".tar.gz' ParaView-" + versionName + ".tar.gz"])
@@ -19,10 +20,10 @@ subprocess.call(["sh", "-c", "tar xzvf ParaView-" + versionName + ".tar.gz"])
 os.chdir("ParaView-" + versionName)
 
 subprocess.call(["sh", "-c", "echo " + password + " | sudo mkdir /opt/paraview/"])
-subprocess.call(["sh", "-c", "sudo cp -r * /opt/paraview/"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo cp -r * /opt/paraview/"])
 subprocess.call(["sh", "-c", "echo 'export PATH=$PATH:/opt/" + versionName + "/bin/' >> ~/.bashrc"])
-subprocess.call(["sh", "-c", "sudo ln -s -f /opt/paraview/bin/paraview /usr/bin/paraview"])
-subprocess.call(["sh", "-c", "sudo ln -s -f /opt/paraview/lib/paraview" + version + "/ /usr/lib/paraview-" + version])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo ln -s -f /opt/paraview/bin/paraview /usr/bin/paraview"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo ln -s -f /opt/paraview/lib/paraview" + version + "/ /usr/lib/paraview-" + version])
 
 file_object = open('paraview.desktop', 'a')
 file_object.close()
@@ -45,4 +46,4 @@ file_object.write(
 
 file_object.close()
 
-subprocess.call(["sh", "-c", "sudo mv paraview.desktop /usr/share/applications"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo mv paraview.desktop /usr/share/applications"])
