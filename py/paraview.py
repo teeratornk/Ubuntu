@@ -19,11 +19,11 @@ subprocess.call(["sh", "-c", "tar xzvf ParaView-" + versionName + ".tar.gz"])
 
 os.chdir("ParaView-" + versionName)
 
-subprocess.call(["sh", "-c", "echo " + password + " | sudo mkdir /opt/paraview/"])
-subprocess.call(["sh", "-c", "echo " + password + " | sudo cp -r * /opt/paraview/"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo -S mkdir /opt/paraview/"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo -S cp -r * /opt/paraview/"])
 subprocess.call(["sh", "-c", "echo 'export PATH=$PATH:/opt/" + versionName + "/bin/' >> ~/.bashrc"])
-subprocess.call(["sh", "-c", "echo " + password + " | sudo ln -s -f /opt/paraview/bin/paraview /usr/bin/paraview"])
-subprocess.call(["sh", "-c", "echo " + password + " | sudo ln -s -f /opt/paraview/lib/paraview" + version + "/ /usr/lib/paraview-" + version])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo -S ln -s -f /opt/paraview/bin/paraview /usr/bin/paraview"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo -S ln -s -f /opt/paraview/lib/paraview" + version + "/ /usr/lib/paraview-" + version])
 
 file_object = open('paraview.desktop', 'a')
 file_object.close()
@@ -46,4 +46,4 @@ file_object.write(
 
 file_object.close()
 
-subprocess.call(["sh", "-c", "echo " + password + " | sudo mv paraview.desktop /usr/share/applications"])
+subprocess.call(["sh", "-c", "echo " + password + " | sudo -S mv paraview.desktop /usr/share/applications"])
