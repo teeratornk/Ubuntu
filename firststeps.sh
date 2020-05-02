@@ -3,12 +3,17 @@ export home="/home/desktop1"
 export petscVersion="3.13.0"
 export paraviewVersion="5.8"
 export paraviewVersionName="5.8.0-MPI-Linux-Python3.7-64bit"
+export useremail="user@mail"
+export username="name"
 
 # Essential (at least for me) softwares
 ./sh/essential.sh ${password}
 
 # Sublime3 configuration
-./sh/sublime3.sh ${password}
+./sh/sublime3.sh
+
+# Git configuration
+./sh/git.sh ${useremail} ${username}
 
 # Boost, Eigen3, HDF5, FEniCS, among others
 ./sh/libs.sh ${password}

@@ -1,3 +1,3 @@
 git config --global credential.helper store
-git config --global user.email "casf.eq@gmail.com"
-git config --global user.name "Carlos A. S. Ferreira"
+git config --global user.email "$1"
+git config --global user.name "$2"
