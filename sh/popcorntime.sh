@@ -1,3 +1,4 @@
+cd sh
 echo "$1" | sudo mkdir /opt/popcorntime
 echo "$1" | sudo cp -r popcorntime.desktop /usr/share/applications/
 cd ~/Downloads
