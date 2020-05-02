@@ -1,3 +1,3 @@
-echo "$1" | sudo rm -rf $HOME/.config/sublime-text-3/Packages/User
-echo "$1" | sudo mkdir $HOME/.config/sublime-text-3/Packages/User
-echo "$1" | sudo cp -r subl3/* $HOME/.config/sublime-text-3/Packages/User/
+rm -rf $HOME/.config/sublime-text-3/Packages/User
+mkdir $HOME/.config/sublime-text-3/Packages/User
+cp -r subl3/* $HOME/.config/sublime-text-3/Packages/User/
