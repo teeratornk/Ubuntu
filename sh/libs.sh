@@ -11,4 +11,5 @@ echo "$1" | sudo -S apt -y install --install-recommends python3-mshr
 echo "$1" | sudo -S apt -y install --install-recommends fenics
 echo "$1" | sudo -S apt -y install --install-recommends gconf2
 pip3 install numpy
+pip3 install matplotlib
 pip3 install meshio[all]
