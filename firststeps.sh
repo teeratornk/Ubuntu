@@ -27,6 +27,9 @@ export username="name"
 # Dropbox
 python3 ./py/dropbox.py ${password} ${home}
 
+# Skype
+python3 ./py/skype.py ${password} ${home}
+
 # PETSc
 python3 ./py/petsc.py ${home} ${petscVersion}
 
