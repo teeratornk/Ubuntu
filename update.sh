@@ -5,4 +5,4 @@ sudo apt install -f
 sudo apt -y dist-upgrade
 sudo apt -y autoremove --purge
 sudo apt autoclean
-deborphan | xargs sudo apt-get -y remove --purge
+deborphan --exclude=python-is-python2 | xargs sudo apt-get -y remove --purge
