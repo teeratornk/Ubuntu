@@ -3,8 +3,8 @@ export home="/home/desktop1"
 export petscVersion="3.13.0" # Find PETSc version on https://www.mcs.anl.gov/petsc/download/index.html
 export paraviewVersion="5.8" # Find Paraview version on https://www.paraview.org/download/ 
 export paraviewVersionName="5.8.0-MPI-Linux-Python3.7-64bit"
-export useremail="user@mail"
-export username="name"
+export useremail="user@mail" # Git Hub user mail
+export username="name" # Git Hub user name
 
 # Essential (at least for me) softwares
 ./sh/essential.sh ${password}

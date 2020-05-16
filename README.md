@@ -1,6 +1,4 @@
 # Ubuntu
-My first steps after a clean Ubuntu 19.10 installation. Simply run the command:
+My first steps after a clean Ubuntu installation. Simply edit the enviroment variables in the firststeps.sh and run it.
 
-```shell
-$ ./firststeps.sh
-```
+Tested in Ubuntu 18.04, 19.10 and 20.04.
