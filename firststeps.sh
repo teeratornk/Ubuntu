@@ -9,8 +9,6 @@ export username="username" # Git Hub user name
 
 ./sh/sublime3.sh # Sublime3 configuration
 
-./sh/git.sh ${useremail} ${username} # Git configuration
-
 ./sh/libs.sh ${password} # Boost, Eigen3, HDF5, FEniCS, among others
 
 ./sh/utilities.sh ${password} # Browser, office, image editors, etc 
@@ -22,3 +20,7 @@ python3 ./py/skype.py ${password} ${home} # Skype
 python3 ./py/paraview.py ${password} ${home} ${paraviewVersion} ${paraviewVersionName} # Paraview
 
 python3 ./py/mendeley.py ${password} ${home} # Mendeley
+
+./sh/git.sh ${useremail} ${username} # Git configuration
+
+./update.sh
