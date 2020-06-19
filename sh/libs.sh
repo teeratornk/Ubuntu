@@ -16,8 +16,7 @@ echo "$1" | sudo -S apt -y install --install-recommends libgmp-dev libgmp3-dev l
 echo "$1" | sudo -S apt -y install --install-recommends libmpfr-dev libmpfrc++-dev
 echo "$1" | sudo -S apt -y install --install-recommends libcgal-dev
 echo "$1" | sudo -S apt -y install --install-recommends tetgen libtet1.5-dev 
-echo "$1" | sudo -S apt -y install --install-recommends libmshr-dev
-echo "$1" | sudo -S apt -y install --install-recommends python3-mshr
+echo "$1" | sudo -S apt -y install --install-recommends libmshr-dev python3-mshr
 echo "$1" | sudo -S apt -y install --install-recommends fenics
 pip3 install numpy
 pip3 install matplotlib
