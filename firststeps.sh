@@ -23,4 +23,6 @@ python3 ./py/mendeley.py ${password} ${home} # Mendeley
 
 ./sh/git.sh ${useremail} ${username} # Git configuration
 
-./update.sh
+./update.sh # Fix broken packages
+
+timedatectl set-local-rtc 1 --adjust-system-clock # Fix Ubuntu/Windows time difference (dual boot)
