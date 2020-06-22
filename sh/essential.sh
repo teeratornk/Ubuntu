@@ -4,3 +4,8 @@ echo "$1" | sudo -S add-apt-repository "deb https://download.sublimetext.com/ ap
 echo "$1" | sudo -S apt update
 echo "$1" | sudo -S apt -y install build-essential sublime-text deborphan git cmake make snap python3-pip
 echo "$1" | sudo -S apt -y install texlive-full
+
+echo "$1" | wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" | sudo tee /etc/apt/sources.list.d/atom.list
+echo "$1" | sudo apt update
+echo "$1" | sudo apt install -y atom
