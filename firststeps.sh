@@ -1,9 +1,9 @@
-export password="mne5323081"
-export home="/home/teekad"
+export password="xxx"
+export home="/home/xxx"
 export paraviewVersion="5.8" # Find Paraview version on https://www.paraview.org/download/
 export paraviewVersionName="5.8.0-MPI-Linux-Python3.7-64bit"
-export useremail="tkadeethum@gmail.com" # Git Hub user mail
-export username="teeratornk" # Git Hub user name
+export useremail="xxxgmail.com" # Git Hub user mail
+export username="xxx" # Git Hub user name
 
 ./sh/essential.sh ${password} # Essential (at least for me) softwares
 #./sh/sublime3.sh # Sublime3 configuration
