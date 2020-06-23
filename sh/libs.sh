@@ -32,3 +32,4 @@ pip3 install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch
 pip3 install gym
 pip3 install box2d-py
 pip3 install atari-py
+pip3 install statsmodels
