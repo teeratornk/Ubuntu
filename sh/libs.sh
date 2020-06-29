@@ -19,6 +19,7 @@ echo "$1" | sudo -S apt -y install --install-recommends tetgen libtet1.5-dev
 echo "$1" | sudo -S apt -y install --install-recommends libmshr-dev python3-mshr
 echo "$1" | sudo -S apt -y install --install-recommends fenics
 echo "$1" | sudo -S apt -y install --install-recommends gmsh
+echo "$1" | sudo -S apt -y install --install-recommends numlockx
 pip3 install numpy
 pip3 install matplotlib
 pip3 install petsc4py
@@ -28,7 +29,7 @@ pip3 install meshio[all]
 pip3 install scikit-learn
 pip3 install pandas
 pip3 install scipy
-pip3 install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install torch torchvision
 pip3 install gym
 pip3 install box2d-py
 pip3 install atari-py
