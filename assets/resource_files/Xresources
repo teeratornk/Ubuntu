@@ -1,0 +1,12 @@
+gnome.wallpaper:	~/Pictures/lock_wall.jpg
+i3-wm.bar.background.color:	#1F2430
+i3-wm.bar.workspace.active.background.color:	#BFBAB0
+i3-wm.bar.workspace.focused.background.color:	#FFA759
+i3-wm.bar.workspace.inactive.background.color:	#BFBAB0
+i3-wm.bar.workspace.urgent.background.color:	#FF3333
+i3-wm.client.focused.color.background:	#BFBAB0
+i3-wm.client.focused_inactive.color.background:	#292B30
+i3-wm.client.unfocused.color.background:	#292B30
+i3-wm.client.urgent.color.background:	#FF3333
+
+gnome.terminal.font:	JetBrains Mono 12
