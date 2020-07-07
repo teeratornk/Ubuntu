@@ -12,3 +12,6 @@ echo "$1" | sudo apt install -y atom
 echo "$1" | sudo apt install gparted
 echo "$1" | sudo apt install texmaker
 echo "$1" | sudo apt install ffmpeg
+echo "$1" | sudo apt install nodejs
+echo "$1" | sudo apt install npm
+echo "$1" | sudo apt install golang
