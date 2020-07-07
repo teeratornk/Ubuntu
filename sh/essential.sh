@@ -11,3 +11,4 @@ echo "$1" | sudo apt update
 echo "$1" | sudo apt install -y atom
 echo "$1" | sudo apt install gparted
 echo "$1" | sudo apt install texmaker
+echo "$1" | sudo apt install ffmpeg
