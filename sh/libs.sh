@@ -29,7 +29,7 @@ pip3 install meshio[all]
 pip3 install scikit-learn
 pip3 install pandas
 pip3 install scipy
-pip3 install torch torchvision
+pip3 install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pip3 install gym
 pip3 install box2d-py
 pip3 install atari-py
