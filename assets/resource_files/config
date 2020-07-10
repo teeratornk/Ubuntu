@@ -247,7 +247,8 @@ hide_edge_borders smart
 ###############################################################################
 
 ## Session // Exit App // <><Shift> q ##
-bindsym $mod+Shift+q [con_id="__focused__"] kill
+bindsym $mod+q [con_id="__focused__"] kill
+#bindsym $mod+Shift+q [con_id="__focused__"] kill
 
 ## Session // Terminate App // <><Alt> q ##
 bindsym $mod+$alt+q [con_id="__focused__"] exec --no-startup-id kill -9 $(xdotool getwindowfocus getwindowpid)
@@ -276,8 +277,9 @@ set_from_resource $i3-wm.program.shutdown i3-wm.program.shutdown /usr/bin/gnome-
 bindsym $mod+Shift+p exec $i3-wm.program.shutdown
 
 ## Session // Lock Screen // <> Escape ##
-#set_from_resource $i3-wm.program.lock i3-wm.program.lock dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
-bindsym $mod+Escape exec i3lock -c 000000
+set_from_resource $i3-wm.program.lock i3-wm.program.lock dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
+bindsym $mod+Escape exec $i3-wm.program.lock
+#bindsym $mod+Escape exec i3lock -c 000000
 
 ## Session // Sleep // <><Shift> s ##
 set_from_resource $i3-wm.program.sleep i3-wm.program.sleep systemctl suspend
