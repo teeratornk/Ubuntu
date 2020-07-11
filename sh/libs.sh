@@ -19,7 +19,13 @@ echo "$1" | sudo -S apt -y install --install-recommends tetgen libtet1.5-dev
 echo "$1" | sudo -S apt -y install --install-recommends libmshr-dev python3-mshr
 echo "$1" | sudo -S apt -y install --install-recommends fenics
 echo "$1" | sudo -S apt -y install --install-recommends gmsh
-echo "$1" | sudo -S apt -y install --install-recommends numlockx
+echo "$1" | sudo -S apt -y install --install-recommends nodejs
+echo "$1" | sudo -S apt -y install --install-recommends npm
+echo "$1" | sudo -S apt -y install --install-recommends golang
+echo "$1" | sudo -S apt -y install --install-recommends gparted
+echo "$1" | sudo -S apt -y install --install-recommends ffmpeg
+echo "$1" | sudo -S apt -y install --install-recommends texmaker
+#echo "$1" | sudo -S apt -y install --install-recommends numlockx
 pip3 install numpy
 pip3 install matplotlib
 pip3 install petsc4py
